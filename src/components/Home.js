@@ -1,7 +1,9 @@
+import Header from "./Header";
 function Home() {
     return (
         <div>
-            <h1>Hello</h1>
+            {/* Header */}
+            <Header/>
         </div>
     );
 }
