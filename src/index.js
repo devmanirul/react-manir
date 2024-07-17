@@ -1,5 +1,5 @@
 import ReactDOM from "react-dom";
-import Home from "./HomePage"
+import Home from "./components/Home"
 
 const root = document.getElementById("root");
-ReactDOM.render(Home, root);
+ReactDOM.render(<Home/>, root);
